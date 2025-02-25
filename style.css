@@ -1,0 +1,39 @@
+body{
+    background-color: lavender;
+}
+.headings{
+    text-align: center;
+    color: burlywood;
+    font-size: 60px;
+}
+.sub-heading-1{
+    color: rgb(167, 44, 192);
+    font-size: 40px;
+}
+#image-random{
+    align-items: center;
+    text-align: center;
+}
+#rand{
+    font-size: 20px;
+}
+#get-random-image-button {
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: rgb(137, 199, 244);
+    background-color: rgb(0, 0, 115); 
+    border-radius: 10px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+}
+
+#get-random-image-button:hover {
+    border: 5px solid brown; 
+    font-size: 19px;
+    color: rgb(55, 130, 185);
+    background-color: rgb(23, 100, 78); 
+    border-radius: 10px;
+    transform: scale(1.1);
+}
