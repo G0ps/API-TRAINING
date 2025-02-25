@@ -10,7 +10,6 @@ const headers = {
                 'X-Api-Key': '/vSUeZXzVRCXai/CxQupSA==AEnI513VRqvCdC5o',
                 'Accept': 'image/jpg'
             };
-console.log("summa");
             try {
                 const response = await fetch(apiUrl, { headers });
 
